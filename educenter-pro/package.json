@@ -1,0 +1,15 @@
+{
+  "name": "educenter-pro",
+  "version": "1.0.0",
+  "description": "EduCenter PRO — student portal (static frontend + optional zero-dependency Node backend)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/backend.test.mjs tests/server.test.mjs",
+    "backup": "node scripts/backup.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
